@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Creepster&family=Press+Start+2P&family=Shojumaru&display=swap" rel="stylesheet">
+
+<title>PONG</title>
+
+</head>
+<body>
+
+<header>
+        <a href="Home.html">
+        <img class="logo" src="images/PONG_logo.png" alt="" style="width: 40vw">
+        </a>
+</header>
+
+<div class="container">
+    <section class="col-l-12">
+    <h2 class="welcome">Welcome to the game that started it all, Pong! </br> In this arcade game you will battle against the most difficult computer in the world. Can you do the impossible and beat it?</h2>
+    <p class="instructions">The goal of the game is to score points by getting the ball to hit the wall behind your opponents paddle. Use your mouse to control your paddle and hit the ball.</p>
+    <p class="start-instructions">Enter your username below and select a theme to start the game.</p>
+    </section>
+</div>
+
+<div class="container">
+    <section class="col-l-12">
+<form class="form" action="Game1.html" method="POST">¨
+    <h2 class="beach-start">Start Beach game</h2>
+    <input type="text" id="username" name="username" placeholder="Enter username.." />
+    <input type="submit" onclick="handleSubmit()"/>
+</form>
+</section>
+</div>
+
+<div class="container">
+    <section class="col-l-12">
+<form class="form" action="Game2.html" method="POST">¨
+    <h2 class="horror-start">Start Horror game</h2>
+    <input type="text" id="username" name="username" placeholder="Enter username.." />
+    <input type="submit" onclick="handleSubmit()"/>
+</form>
+</section>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
